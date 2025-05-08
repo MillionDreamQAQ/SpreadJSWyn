@@ -1,0 +1,67 @@
+.designer {
+  height: calc(100% - 15px);
+}
+
+.ribbon-button-welcome {
+  background-image: url("./welcome.png");
+  background-size: 35px 35px;
+}
+
+html,
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#gc-designer-container {
+  height: 100%;
+}
+
+#chartDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  width: 1680px;
+  min-height: 800px;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-content {
+  height: 750px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+
+.close-btn:hover {
+  color: #666;
+}
+
+#designer {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#visual {
+  width: 500px;
+  height: 500px;
+}
