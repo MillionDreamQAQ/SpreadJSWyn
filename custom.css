@@ -28,8 +28,8 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
-  width: 1680px;
-  min-height: 800px;
+  width: 90%;
+  min-height: 60%;
 }
 
 .dialog-header {
